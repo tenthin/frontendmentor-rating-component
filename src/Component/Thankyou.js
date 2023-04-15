@@ -1,7 +1,7 @@
 import React from "react";
 import "./Thankyou.css";
 
-function Thankyou() {
+function Thankyou({ rating }) {
   return (
     <div className="thankyou-container">
       <div className="thankyou-img">
@@ -11,7 +11,7 @@ function Thankyou() {
         />
       </div>
       <div className="selected">
-        <p>You selected 4 out of 5</p>
+        <p>You selected {rating} out of 5</p>
       </div>
       <h2>Thank you!</h2>
       <p>

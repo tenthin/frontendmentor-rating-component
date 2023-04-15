@@ -62,7 +62,11 @@ body{
     color: hsl(217, 12%, 63%);
     font-size: 12px;
     cursor: pointer;
-   
+}
+
+.rating-inner ul li.active{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
 }
 
 .rating-inner ul li:hover{
